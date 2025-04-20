@@ -1,0 +1,14 @@
+[Unit]
+Description=Fan control
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/tmp
+ExecStart=/usr/local/bin/fancontrol
+
+[Install]
+WantedBy=multi-user.target
+WantedBy=rescue.target
