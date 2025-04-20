@@ -6,8 +6,8 @@ DEBUG=0
 
 DEVICE_BASE=/sys/devices/platform/pwm-fan/hwmon/hwmon3
 
-#declare -a CpuTemps=(75000 65000 55000 50000 45000 40000 0)
-#declare -a PwmDec=(255 150 90 80 70 60 0)
+# declare -a CpuTemps=(75000 65000 55000 50000 45000 40000 0)
+# declare -a PwmDec=(255 150 90 80 70 60 0)
 declare -a CpuTemps=(70000 55000 50000 45000 40000 35000 0)
 declare -a PwmDec=(255 100 80 70 60 55 0)
 
